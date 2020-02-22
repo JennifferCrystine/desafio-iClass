@@ -1,0 +1,14 @@
+syntax: regexp
+.*\.class$
+target\/.*
+.*\.metadata\/*
+.*\.settings\/*
+.*\.recommenders\/*
+.*\.idea\/*
+.*\/bin\/*
+.*\.iml
+.*\.classpath
+.*\.project
+build\/*
+out\/*
+Temp\/*
