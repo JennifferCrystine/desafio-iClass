@@ -169,5 +169,6 @@ public class Personagem implements Serializable {
         this.destreza = destreza;
         this.inteligencia = inteligencia;
         this.resistencia = resistencia;
+        this.sorte = sorte;
     }
 }

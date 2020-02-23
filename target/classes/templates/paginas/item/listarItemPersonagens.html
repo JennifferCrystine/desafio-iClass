@@ -15,7 +15,7 @@
 <div th:replace="fragments/header :: header"></div>
 <br/>
 <div class="container" style="text-align: center;width: 100%"><h3>Cadastro de Itens do Persongem</h3></div>
-<hr /><br>
+<hr/><br>
 
 <div class="container">
     <form action="#" th:action="@{/adicionaItemPersonagem}" th:object="${itemPersonagem}" method="post">
@@ -28,8 +28,8 @@
             </div>
             <div class="row">
                 <div class="input-group col-lg-3">
-                                    <span class="text-danger" th:each="err : ${#fields.errors('personagem')}"
-                                          th:utext="${err}"></span>
+                    <span class="text-danger" th:each="err : ${#fields.errors('personagem')}"
+                          th:utext="${err}"></span>
                 </div>
             </div>
             <div class="row">
@@ -78,7 +78,7 @@
             <br/>
             <div class="row">
                 <div class="col-lg-12">
-                    <input class="btn btn-lg btn-primary" type="submit" align="right"/>
+                    <input class="btn btn-lg btn-primary" type="submit"  align="right"/>
                 </div>
             </div>
         </div>

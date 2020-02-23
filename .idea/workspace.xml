@@ -15,10 +15,25 @@
       <FILTER>br.com.iclass.mvc.application.*</FILTER>
     </SUITE>
   </component>
+  <component name="DatabaseView">
+    <option name="SHOW_INTERMEDIATE" value="true" />
+    <option name="GROUP_DATA_SOURCES" value="true" />
+    <option name="GROUP_SCHEMA" value="true" />
+    <option name="GROUP_CONTENTS" value="false" />
+    <option name="SORT_POSITIONED" value="false" />
+    <option name="SHOW_EMPTY_GROUPS" value="false" />
+    <option name="AUTO_SCROLL_FROM_SOURCE" value="false" />
+    <option name="HIDDEN_KINDS">
+      <set />
+    </option>
+    <expand />
+    <select />
+  </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="Class" />
+        <option value="Interface" />
         <option value="HTML File" />
       </list>
     </option>
@@ -40,6 +55,7 @@
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent">
+    <property name="DatabaseDriversLRU" value="h2" />
     <property name="DefaultHtmlFileTemplate" value="HTML File" />
     <property name="RequestMappingsPanelOrder0" value="0" />
     <property name="RequestMappingsPanelOrder1" value="1" />
@@ -60,6 +76,7 @@
     <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.0" />
     <property name="project.structure.side.proportion" value="0.0" />
+    <property name="restartRequiresConfirmation" value="false" />
     <property name="settings.editor.selected.configurable" value="project.propVCSSupport.Mappings" />
   </component>
   <component name="RecentsManager">
@@ -147,7 +164,9 @@
       <updated>1539112722020</updated>
       <workItem from="1539112726785" duration="34875000" />
       <workItem from="1539284883779" duration="100000" />
-      <workItem from="1582325010987" duration="8375000" />
+      <workItem from="1582325010987" duration="9114000" />
+      <workItem from="1582378008929" duration="19820000" />
+      <workItem from="1582463461508" duration="9680000" />
     </task>
     <servers />
   </component>
@@ -155,50 +174,86 @@
     <option name="version" value="1" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="174" y="54" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1582333422919">
+    <state x="311" y="58" width="800" height="677" key="#Assign_Data_Sources" timestamp="1582387174167">
       <screen x="67" y="27" width="1299" height="741" />
     </state>
-    <state x="174" y="54" key="#com.intellij.execution.impl.EditConfigurationsDialog/67.27.1299.741@67.27.1299.741" timestamp="1582333422919" />
+    <state x="311" y="58" width="800" height="677" key="#Assign_Data_Sources/67.27.1299.741@67.27.1299.741" timestamp="1582387174167" />
+    <state x="449" y="154" width="524" height="484" key="#com.intellij.codeInsight.editorActions.RestoreReferencesDialog" timestamp="1582385084153">
+      <screen x="67" y="27" width="1299" height="741" />
+    </state>
+    <state x="449" y="154" width="524" height="484" key="#com.intellij.codeInsight.editorActions.RestoreReferencesDialog/67.27.1299.741@67.27.1299.741" timestamp="1582385084153" />
+    <state x="174" y="54" width="1034" height="677" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1582399802734">
+      <screen x="67" y="27" width="1299" height="741" />
+    </state>
+    <state x="174" y="54" width="1034" height="677" key="#com.intellij.execution.impl.EditConfigurationsDialog/67.27.1299.741@67.27.1299.741" timestamp="1582399802734" />
+    <state x="439" y="100" width="544" height="592" key="#com.intellij.ide.util.MemberChooser" timestamp="1582381325729">
+      <screen x="67" y="27" width="1299" height="741" />
+    </state>
+    <state x="439" y="100" width="544" height="592" key="#com.intellij.ide.util.MemberChooser/67.27.1299.741@67.27.1299.741" timestamp="1582381325729" />
     <state x="557" y="288" width="308" height="216" key="#com.intellij.ide.util.projectWizard.JdkChooserPanel.MyDialog" timestamp="1582325064909">
       <screen x="67" y="27" width="1299" height="741" />
     </state>
     <state x="557" y="288" width="308" height="216" key="#com.intellij.ide.util.projectWizard.JdkChooserPanel.MyDialog/67.27.1299.741@67.27.1299.741" timestamp="1582325064909" />
-    <state width="1253" height="400" key="GridCell.Tab.0.bottom" timestamp="1582334122348">
+    <state width="1253" height="477" key="GridCell.Tab.0.bottom" timestamp="1582475338958">
       <screen x="67" y="27" width="1299" height="741" />
     </state>
-    <state width="1253" height="400" key="GridCell.Tab.0.bottom/67.27.1299.741@67.27.1299.741" timestamp="1582334122348" />
-    <state width="1253" height="400" key="GridCell.Tab.0.center" timestamp="1582334122347">
+    <state width="1253" height="477" key="GridCell.Tab.0.bottom/67.27.1299.741@67.27.1299.741" timestamp="1582475338958" />
+    <state width="1253" height="477" key="GridCell.Tab.0.center" timestamp="1582475338957">
       <screen x="67" y="27" width="1299" height="741" />
     </state>
-    <state width="1253" height="400" key="GridCell.Tab.0.center/67.27.1299.741@67.27.1299.741" timestamp="1582334122347" />
-    <state width="1253" height="400" key="GridCell.Tab.0.left" timestamp="1582334122347">
+    <state width="1253" height="477" key="GridCell.Tab.0.center/67.27.1299.741@67.27.1299.741" timestamp="1582475338957" />
+    <state width="1253" height="477" key="GridCell.Tab.0.left" timestamp="1582475338957">
       <screen x="67" y="27" width="1299" height="741" />
     </state>
-    <state width="1253" height="400" key="GridCell.Tab.0.left/67.27.1299.741@67.27.1299.741" timestamp="1582334122347" />
-    <state width="1253" height="400" key="GridCell.Tab.0.right" timestamp="1582334122348">
+    <state width="1253" height="477" key="GridCell.Tab.0.left/67.27.1299.741@67.27.1299.741" timestamp="1582475338957" />
+    <state width="1253" height="477" key="GridCell.Tab.0.right" timestamp="1582475338958">
       <screen x="67" y="27" width="1299" height="741" />
     </state>
-    <state width="1253" height="400" key="GridCell.Tab.0.right/67.27.1299.741@67.27.1299.741" timestamp="1582334122348" />
-    <state width="1253" height="400" key="GridCell.Tab.1.bottom" timestamp="1582334122350">
+    <state width="1253" height="477" key="GridCell.Tab.0.right/67.27.1299.741@67.27.1299.741" timestamp="1582475338958" />
+    <state width="1253" height="477" key="GridCell.Tab.1.bottom" timestamp="1582475338958">
       <screen x="67" y="27" width="1299" height="741" />
     </state>
-    <state width="1253" height="400" key="GridCell.Tab.1.bottom/67.27.1299.741@67.27.1299.741" timestamp="1582334122350" />
-    <state width="1253" height="400" key="GridCell.Tab.1.center" timestamp="1582334122349">
+    <state width="1253" height="477" key="GridCell.Tab.1.bottom/67.27.1299.741@67.27.1299.741" timestamp="1582475338958" />
+    <state width="1253" height="477" key="GridCell.Tab.1.center" timestamp="1582475338958">
       <screen x="67" y="27" width="1299" height="741" />
     </state>
-    <state width="1253" height="400" key="GridCell.Tab.1.center/67.27.1299.741@67.27.1299.741" timestamp="1582334122349" />
-    <state width="1253" height="400" key="GridCell.Tab.1.left" timestamp="1582334122349">
+    <state width="1253" height="477" key="GridCell.Tab.1.center/67.27.1299.741@67.27.1299.741" timestamp="1582475338958" />
+    <state width="1253" height="477" key="GridCell.Tab.1.left" timestamp="1582475338958">
       <screen x="67" y="27" width="1299" height="741" />
     </state>
-    <state width="1253" height="400" key="GridCell.Tab.1.left/67.27.1299.741@67.27.1299.741" timestamp="1582334122349" />
-    <state width="1253" height="400" key="GridCell.Tab.1.right" timestamp="1582334122349">
+    <state width="1253" height="477" key="GridCell.Tab.1.left/67.27.1299.741@67.27.1299.741" timestamp="1582475338958" />
+    <state width="1253" height="477" key="GridCell.Tab.1.right" timestamp="1582475338958">
       <screen x="67" y="27" width="1299" height="741" />
     </state>
-    <state width="1253" height="400" key="GridCell.Tab.1.right/67.27.1299.741@67.27.1299.741" timestamp="1582334122349" />
+    <state width="1253" height="477" key="GridCell.Tab.1.right/67.27.1299.741@67.27.1299.741" timestamp="1582475338958" />
+    <state width="1253" height="195" key="GridCell.Tab.2.bottom" timestamp="1582473310304">
+      <screen x="67" y="27" width="1299" height="741" />
+    </state>
+    <state width="1253" height="195" key="GridCell.Tab.2.bottom/67.27.1299.741@67.27.1299.741" timestamp="1582473310304" />
+    <state width="1253" height="195" key="GridCell.Tab.2.center" timestamp="1582473310303">
+      <screen x="67" y="27" width="1299" height="741" />
+    </state>
+    <state width="1253" height="195" key="GridCell.Tab.2.center/67.27.1299.741@67.27.1299.741" timestamp="1582473310303" />
+    <state width="1253" height="195" key="GridCell.Tab.2.left" timestamp="1582473310303">
+      <screen x="67" y="27" width="1299" height="741" />
+    </state>
+    <state width="1253" height="195" key="GridCell.Tab.2.left/67.27.1299.741@67.27.1299.741" timestamp="1582473310303" />
+    <state width="1253" height="195" key="GridCell.Tab.2.right" timestamp="1582473310304">
+      <screen x="67" y="27" width="1299" height="741" />
+    </state>
+    <state width="1253" height="195" key="GridCell.Tab.2.right/67.27.1299.741@67.27.1299.741" timestamp="1582473310304" />
     <state x="205" y="31" key="SettingsEditor" timestamp="1582325033147">
       <screen x="67" y="27" width="1299" height="741" />
     </state>
     <state x="205" y="31" key="SettingsEditor/67.27.1299.741@67.27.1299.741" timestamp="1582325033147" />
+    <state x="372" y="224" key="com.intellij.ide.util.TipDialog" timestamp="1582463511285">
+      <screen x="67" y="27" width="1299" height="741" />
+    </state>
+    <state x="372" y="224" key="com.intellij.ide.util.TipDialog/67.27.1299.741@67.27.1299.741" timestamp="1582463511285" />
+    <state x="251" y="84" width="920" height="624" key="com.intellij.xdebugger.impl.breakpoints.ui.BreakpointsDialogFactory$2" timestamp="1582470181665">
+      <screen x="67" y="27" width="1299" height="741" />
+    </state>
+    <state x="251" y="84" width="920" height="624" key="com.intellij.xdebugger.impl.breakpoints.ui.BreakpointsDialogFactory$2/67.27.1299.741@67.27.1299.741" timestamp="1582470181665" />
   </component>
   <component name="antWorkspaceConfiguration">
     <option name="IS_AUTOSCROLL_TO_SOURCE" value="false" />
