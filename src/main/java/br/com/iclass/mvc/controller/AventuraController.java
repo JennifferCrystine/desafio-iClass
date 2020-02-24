@@ -55,11 +55,20 @@ public class AventuraController {
 
             if( xp > (100 * (nivel + 1))) personagem.setExperiencia(xp);
 
+            int dano = (int) (Math.random()*100);
+            if(dano == 1) {
+                ItemPersonagem item = new ItemPersonagem();
+                int durabilidade = item.getDurabilidade();
+
+                item.setDurabilidade(durabilidade - 5);
+            }
         }
+
+
 
         if(errors.hasErrors()) {
             model.addAttribute("aventuraPersonagem", aventuraPersonagem);
-            return "/paginas/aventura/listarAventuras";
+            return "redirect:/listarAventuras";
         }
 
         repository.save(aventuraPersonagem);

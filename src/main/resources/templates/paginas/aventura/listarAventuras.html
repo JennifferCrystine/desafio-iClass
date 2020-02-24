@@ -75,7 +75,6 @@
 
 <br>
 <!--Listar-->
-<div th:unless="${#lists.isEmpty(aventuraPersonagem)}" class="container-fluid">
     <table id="tableItem" class="table table-bordered table-striped">
         <thead>
         <tr>
@@ -85,7 +84,7 @@
         </tr>
         </thead>
         <tr th:each="aventura : ${listaAventuras}">
-            <td th:text="${aventura.personagem.nome}" width="50%"></td>
+            <td th:text="${personagem.nome}" width="50%"></td>
             <td th:text="${aventura.aventuraPersonagem}" width="45%"></td>
             <td th:text="${aventura.xp}" width="5%"></td>
         </tr>
