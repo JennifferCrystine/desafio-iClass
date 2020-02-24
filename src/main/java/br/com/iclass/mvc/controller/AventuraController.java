@@ -2,6 +2,7 @@ package br.com.iclass.mvc.controller;
 
 
 import br.com.iclass.mvc.entity.Aventura;
+import br.com.iclass.mvc.entity.ItemPersonagem;
 import br.com.iclass.mvc.entity.Personagem;
 import br.com.iclass.mvc.repository.AventuraRepository;
 import br.com.iclass.mvc.repository.ItemPersonagemRepository;
@@ -38,7 +39,7 @@ public class AventuraController {
 
 
     @RequestMapping(value = "/adicionaAventura", method = RequestMethod.POST)
-    public String adicionaAventura(@ModelAttribute @Valid BindingResult errors, Model model, Personagem personagem) {
+    public String adicionaAventura(@ModelAttribute @Valid Aventura aventuraPersonagem, BindingResult errors, Model model, Personagem personagem) {
 
         aventuraPersonagem = new Aventura();
 
