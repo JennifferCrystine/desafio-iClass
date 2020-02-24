@@ -32,7 +32,6 @@
             <th class="col-sm-2" data-field="sexo">Sexo</th>
             <th class="col-sm-2" data-field="nivel">Nível</th>
             <th class="col-sm-3" data-field="experiencia">Experiência</th>
-            <th class="col-sm-2" data-field="sorte">Sorte</th>
         </tr>
         </thead>
         <tr th:each="personagem : ${personagens}">
@@ -44,7 +43,6 @@
             <td th:text="${personagem.sexo}" width="25%"></td>
             <td th:text="${personagem.nivel}" width="25%"></td>
             <td th:text="${personagem.experiencia}" width="25%"></td>
-            <td th:text="${personagem.sorte}" width="25%"></td>
         </tr>
     </table>
 
